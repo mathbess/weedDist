@@ -1,0 +1,16 @@
+# Paper idea
+
+**Theoretical question**
+-	What is the role of dispersal on weed dynamics?
+-	Could spatial arrangement of management decisions at a landscape scale decrease weed spread and persistence in agro-ecosystems? If so, how can proportion of permanent meadows impact weed spread?
+
+**Technical question**
+- Are different ways of dispersal representation (curves) important to consider?
+
+**Main results**
+- the better fit of the 2Dt curve to represent weed dispersion (this answers the first theoretical question and the technical one).
+- And the impact of permanent meadows on the spread of weed dispersion. Briefly, increasing permanent meadows decreases the propagation speed of weed seeds (this answers the second theoretical question)
+
+**Paper structure**:  
+Based in the above ideas and results, the paper will be structured in first answering if there is an impact of dispersion representation on weed dynamics. We will show that there is a significant impact of the curve but not considerable when compared with land use variation, in anyways, the 2Dt curve fitted best the data.
+Next, to answer if land use variation can change weed dynamics, we will use a case study with simulations based in the introduction of weed species in non-colonized landscapes. Here we show that increasing permanent meadows decreases propagation speed, where the proportion of land use, together with the type of land use, plays a major role in weed dynamics.

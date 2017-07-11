@@ -1,0 +1,20 @@
+---
+- family: Vieira
+  given: Willian
+  affiliations:
+    - INRA, UMR 1347 Agroécologie, BP 86510, F-21000 Dijon, France
+    - Département de Biologie, Université de Sherbrooke, Sherbrooke, Québec, Canada
+  email: willian.vieira@usherbrooke.ca
+  id: WV
+  orcid: 0000-0003-0283-4570
+- family: Ricci
+  given: Benoit
+  affiliations:
+    - INRA, UMR 1347 Agroécologie, BP 86510, F-21000 Dijon, France
+  id: BR
+- family: Colbach
+  given: Nathalie
+  affiliations:
+    - INRA, UMR 1347 Agroécologie, BP 86510, F-21000 Dijon, France
+  id: NC
+...

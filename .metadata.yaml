@@ -1,0 +1,40 @@
+---
+title: >-
+  How do dispersal effect weed dynamics? Sensitivity analysis of landscape-scale
+  model to Kernel curves
+short: Modelling weed dispersal in a landscape-scale approach
+keyword:
+  - dispersal curves
+  - population dynamics
+  - crops
+  - Virtual landscapes
+date: 'May 17, 2017 - Last update: July 7th, 2017'
+abstract: "# Paper idea\n\n**Theoretical question**\n-\tWhat is the role of dispersal on weed dynamics?\n-\tCould spatial arrangement of management decisions at a landscape scale decrease weed spread and persistence in agro-ecosystems? If so, how can proportion of permanent meadows impact weed spread?\n\n**Technical question**\n- Are different ways of dispersal representation (curves) important to consider?\n\n**Main results**\n- the better fit of the 2Dt curve to represent weed dispersion (this answers the first theoretical question and the technical one).\n- And the impact of permanent meadows on the spread of weed dispersion. Briefly, increasing permanent meadows decreases the propagation speed of weed seeds (this answers the second theoretical question)\n\n**Paper structure**:  \nBased in the above ideas and results, the paper will be structured in first answering if there is an impact of dispersion representation on weed dynamics. We will show that there is a significant impact of the curve but not considerable when compared with land use variation, in anyways, the 2Dt curve fitted best the data.\nNext, to answer if land use variation can change weed dynamics, we will use a case study with simulations based in the introduction of weed species in non-colonized landscapes. Here we show that increasing permanent meadows decreases propagation speed, where the proportion of land use, together with the type of land use, plays a major role in weed dynamics.\n"
+author:
+  - family: Vieira
+    given: Willian
+    affiliations:
+      - 1
+      - 2
+    email: willian.vieira@usherbrooke.ca
+    id: WV
+    orcid: 0000-0003-0283-4570
+  - family: Ricci
+    given: Benoit
+    affiliations:
+      - 1
+    id: BR
+  - family: Colbach
+    given: Nathalie
+    affiliations:
+      - 1
+    id: NC
+affiliation:
+  - id: 1
+    text: 'INRA, UMR 1347 Agroécologie, BP 86510, F-21000 Dijon, France'
+  - id: 2
+    text: >-
+      Département de Biologie, Université de Sherbrooke, Sherbrooke, Québec,
+      Canada
+cleveref: true
+...
