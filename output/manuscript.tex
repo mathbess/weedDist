@@ -127,6 +127,8 @@ account. However, Modeling the dispersion is difficult because of the
 high variability of dispersion distance and the lack of empirical data.
 This is the context of the \enquote{technical question}. Discuss the
 technical part of dispersal (e.g.~curves) and how it has been modeled.
+\emph{Relatively small differences in the shapes of tails can have large
+effects on rates of population spread (Clark 1998)}.
 
 Here we ask the following questions: (i) what is the role of dispersal
 on weed dynamics? (ii) Does dispersal curve really matters at
@@ -169,8 +171,17 @@ dispersal curves \emph{D} (\Xrefname{Table}\Cref{tbl:eq}).
 \subsection{Dispersal curves and
 parameterization}\label{dispersal-curves-and-parameterization}
 
-We tested four kernel curves to represent the process of weed dispersion
-(\Xrefname{Table}\Cref{tbl:eq}).
+We tested four kernel curves to represent the process \emph{D}
+(\xrefname{eq.}\cref{eq:s}) of weed dispersion
+(\Xrefname{Table}\Cref{tbl:eq}). The Gaussian and exponential
+(Austerlitz \& Smouse 2001) distribution are frequently used to
+represent spatial dynamics and hence biological dispersal. However, due
+\textbf{DO}, these curves may not represent dispersal properly
+({\textbf{???}}). As our model works in a landscape scale, long distance
+dispersal events are important to consider. Weibull (Weibull 1951; Tufto
+et al. 1997) et 2Dt (Clark et al. 1999) curves were then implemented to
+try and represent the long distance dispersal by the leptokurtosis and
+long tail form.
 
 \begin{longtable}[]{@{}lrcc@{}}
 \caption{Kernel curves to calculate the probability of seed dispersal,
@@ -259,20 +270,21 @@ Test (Gaba et al. 2010)
 \emph{to be done: step 2}
 
 The speed of seed spread over time shows a median of 262.2
-meters.year\^{}\{-1\} (from 62.7 to 402.9) for all simulations. This
-speed is mostly influenced by land use (ω2mean = 15.4\%) and by the
-interaction of curve and proportion of land use (ω2mean = 10\%; table
-1). Both the proportion of land use and the curve alone has a moderate
-effect on the speed of spread (5.8\% and 5.3\%, respectively). Among the
-landscape with a unique land use, the permanent meadows presented the
-slowest median dissemination speed (80 metersyear-1) compared with
-conventional (266.6) and organic (279). Increasing the proportion of
-permanent meadows to 50\% in the landscape significantly decreased the
-dissemination speed, but there was no difference when increased to 3\%
-(Figure 1). The significantly but weak effect of the dispersion curve on
-dissemination speed (ω2mean = 5.3\%), shows a general higher median
-dissemination speed for the 2Dt curve (282.3 metersyear-1) compared with
-Exponential (268.8), Gaussian (265.3) and Weibull (265.3; Figure 1).
+meters.year\(^{-1}\) (from 62.7 to 402.9) for all simulations. This
+speed is mostly influenced by land use (ω\(^2_{mean}\) = 15.4\%) and by
+the interaction of curve and proportion of land use (ω2mean = 10\%;
+table 1). Both the proportion of land use and the curve alone has a
+moderate effect on the speed of spread (5.8\% and 5.3\%, respectively).
+Among the landscape with a unique land use, the permanent meadows
+presented the slowest median dissemination speed (80 metersyear-1)
+compared with conventional (266.6) and organic (279). Increasing the
+proportion of permanent meadows to 50\% in the landscape significantly
+decreased the dissemination speed, but there was no difference when
+increased to 3\% (Figure 1). The significantly but weak effect of the
+dispersion curve on dissemination speed (ω2mean = 5.3\%), shows a
+general higher median dissemination speed for the 2Dt curve (282.3
+metersyear-1) compared with Exponential (268.8), Gaussian (265.3) and
+Weibull (265.3; Figure 1).
 
 \section{Discussion}\label{discussion}
 
@@ -282,10 +294,19 @@ Exponential (268.8), Gaussian (265.3) and Weibull (265.3; Figure 1).
 \addcontentsline{toc}{section}{References}
 
 \hypertarget{refs}{}
+\hypertarget{ref-Austerlitz2001}{}
+\textbf{Austerlitz \& Smouse}. (2001). Two-generation analysis of pollen
+flow across a landscape. III. Impact of adult population structure.
+\emph{Genetical research.} 78:271--80.
+
+\hypertarget{ref-Clark1999}{}
+\textbf{Clark et al.} (1999). Seed Dispersal near and far: patterns
+across temperate and tropical fore. \emph{Ecology.} 80:1475--94.
+
 \hypertarget{ref-Gaba2010}{}
 \textbf{Gaba et al.} (2010). Weed species richness in winter wheat
 increases with landscape heterogeneity. \emph{Agriculture, Ecosystems
-and Environment.} Elsevier B.V. 138:318--23.
+and Environment.} 138:318--23.
 
 \hypertarget{ref-Ricci2017}{}
 \textbf{Ricci et al.} (2017). How much can a large scale planning reduce
@@ -296,5 +317,13 @@ local weed infestations ? A landscape-scale modelling approach.
 \textbf{Thomson et al.} (2011). Seed dispersal distance is more strongly
 correlated with plant height than with seed mass. \emph{Journal of
 Ecology.} 99:1299--307.
+
+\hypertarget{ref-Tufto1997}{}
+\textbf{Tufto et al.} (1997). Stochastic dispersal processes in plant
+populations. \emph{Theoretical Population Biology.} 52:16--26.
+
+\hypertarget{ref-Weibull1951}{}
+\textbf{Weibull}. (1951). A statistical distribution function of wide
+applicability {[}Internet{]}. pp. 293--7.
  +
  +\end{document}

@@ -11,6 +11,7 @@ Discuss the overall theoretical knowledge of plant dispersal with an emphasis in
 Try and show the well-known role that dispersal plays in plant dynamics and what could be true/false for weed communities in a human environment.
 
 In the above context, DynWeed was created to represent the dynamics of weed in a landscape scale, which makes necessary take dispersal into account. However, Modeling the dispersion is difficult because of the high variability of dispersion distance and the lack of empirical data. This is the context of the “technical question”. Discuss the technical part of dispersal (e.g. curves) and how it has been modeled.
+<!--*Relatively small differences in the shapes of tails can have large effects on rates of population spread (Clark 1998)*.-->
 
 Here we ask the following questions: (i) what is the role of dispersal on weed dynamics? (ii) Does dispersal curve really matters at landscape-action? (iii) Could spatial arrangement of management decisions at landscape scale decrease weed spread and persistence in agro-ecosystems? If so, (iv) how can proportion of permanent meadows impact weed spread? Using a landscape-scale model, our hypothesis is that different curves to represent the dispersal process will change dispersal distance and hence the weed dynamics.
 Furthermore, increasing the proportion permanent meadows in the agricultural landscape will reduce the speed of weed spread through the landscape.
@@ -31,8 +32,10 @@ $$ S_{t,x,y} = (1 - sm_{t,x,y})\times(1 - gr_{t,x,y})S_{t-1,x,y} + \iint\limits_
 
 ## Dispersal curves and parameterization
 
-We tested four kernel curves to represent the process of weed dispersion (\*@tbl:eq).
-
+We tested four kernel curves to represent the process *D* (@eq:s) of weed dispersion (\*@tbl:eq).
+The Gaussian and exponential [@Austerlitz2001] distribution are frequently used to represent spatial dynamics and hence biological dispersal. However, due **DO**, these curves may not represent dispersal properly [@Clark1998].
+As our model works in a landscape scale, long distance dispersal events are important to consider.
+Weibull [@Tufto1997;@Weibull1951] and 2Dt [@Clark1999] curves were then implemented to try and represent the long distance dispersal by their leptokurtosis and long tail form.
 
 Table: Kernel curves to calculate the probability of seed dispersal, the parameter assumptions and the distribution form. {#tbl:eq}
 
@@ -55,13 +58,11 @@ Explain the variation of each simulation.
 
 ## Statistics analysis
 
-Test [@Gaba2010]
-
 # Results
 
 *to be done: step 2*
 
-The speed of seed spread over time shows a median of 262.2 meters.year^{-1} (from 62.7 to 402.9) for all simulations. This speed is mostly influenced by land use (ω2mean = 15.4%) and by the interaction of curve and proportion of land use (ω2mean = 10%; table 1). Both the proportion of land use and the curve alone has a moderate effect on the speed of spread (5.8% and 5.3%, respectively).
+The speed of seed spread over time shows a median of 262.2 meters.year$^{-1}$ (from 62.7 to 402.9) for all simulations. This speed is mostly influenced by land use (ω$^2_{mean}$ = 15.4%) and by the interaction of curve and proportion of land use (ω2mean = 10%; table 1). Both the proportion of land use and the curve alone has a moderate effect on the speed of spread (5.8% and 5.3%, respectively).
 Among the landscape with a unique land use, the permanent meadows presented the slowest median dissemination speed (80 metersyear-1) compared with conventional (266.6) and organic (279). Increasing the proportion of permanent meadows to 50% in the landscape significantly decreased the dissemination speed, but there was no difference when increased to 3% (Figure 1).
 The significantly but weak effect of the dispersion curve on dissemination speed (ω2mean = 5.3%), shows a general higher median dissemination speed for the 2Dt curve (282.3 metersyear-1) compared with Exponential (268.8), Gaussian (265.3) and Weibull (265.3; Figure 1).
 

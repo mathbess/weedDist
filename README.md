@@ -18,7 +18,7 @@ this is {~~ the ~> a ~~} original sentence.  #replace "the" by "a"
 this is {== the ==}{>> this word shouldn't be here <<} original sentence. #comment on the word "the"
 ```
 
-You can also contribute by commenting on the [pdf][pdf] or [odt][odt] file.
+You can also contribute by commenting on the [pdf][pdf] or [odt][odt] draft file.
 
 <!-- links -->
 [tp]: https://github.com/PoisotLab/PLMT
