@@ -1,4 +1,12 @@
 <!-- to render this file into a pdf: Rscript -e "rmarkdown::render('manuscript.Rmd')" -->
+****Comments from Benoît:**
+- Is it really a sensitivity analysis? We're actually testing different scenarios.  
+The paper has two parts: first the curve fit and the scenario variation.
+What may be useful to the first part:
+
+https://stats.stackexchange.com/questions/132652/how-to-determine-which-distribution-fits-my-data-best
+
+
 # Introduction
 
 *to be done: step 4*

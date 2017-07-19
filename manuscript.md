@@ -11,7 +11,7 @@ Discuss the overall theoretical knowledge of plant dispersal with an emphasis in
 Try and show the well-known role that dispersal plays in plant dynamics and what could be true/false for weed communities in a human environment.
 
 In the above context, DynWeed was created to represent the dynamics of weed in a landscape scale, which makes necessary take dispersal into account. However, Modeling the dispersion is difficult because of the high variability of dispersion distance and the lack of empirical data. This is the context of the “technical question”. Discuss the technical part of dispersal (e.g. curves) and how it has been modeled.
-*Relatively small differences in the shapes of tails can have large effects on rates of population spread (Clark 1998)*.
+<!--*Relatively small differences in the shapes of tails can have large effects on rates of population spread (Clark 1998)*.-->
 
 Here we ask the following questions: (i) what is the role of dispersal on weed dynamics? (ii) Does dispersal curve really matters at landscape-action? (iii) Could spatial arrangement of management decisions at landscape scale decrease weed spread and persistence in agro-ecosystems? If so, (iv) how can proportion of permanent meadows impact weed spread? Using a landscape-scale model, our hypothesis is that different curves to represent the dispersal process will change dispersal distance and hence the weed dynamics.
 Furthermore, increasing the proportion permanent meadows in the agricultural landscape will reduce the speed of weed spread through the landscape.
@@ -35,7 +35,7 @@ $$ S_{t,x,y} = (1 - sm_{t,x,y})\times(1 - gr_{t,x,y})S_{t-1,x,y} + \iint\limits_
 We tested four kernel curves to represent the process *D* (@eq:s) of weed dispersion (\*@tbl:eq).
 The Gaussian and exponential [@Austerlitz2001] distribution are frequently used to represent spatial dynamics and hence biological dispersal. However, due **DO**, these curves may not represent dispersal properly [@Clark1998].
 As our model works in a landscape scale, long distance dispersal events are important to consider.
-Weibull [@Tufto1997;@Weibull1951] et 2Dt [@Clark1999] curves were then implemented to try and represent the long distance dispersal by the leptokurtosis and long tail form.
+Weibull [@Tufto1997;@Weibull1951] and 2Dt [@Clark1999] curves were then implemented to try and represent the long distance dispersal by their leptokurtosis and long tail form.
 
 Table: Kernel curves to calculate the probability of seed dispersal, the parameter assumptions and the distribution form. {#tbl:eq}
 
@@ -57,8 +57,6 @@ The seed spread calculation was based...
 Explain the variation of each simulation.
 
 ## Statistics analysis
-
-Test [@Gaba2010]
 
 # Results
 
